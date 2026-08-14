@@ -1,0 +1,11 @@
+VECTOR l=770d r=2c76 expected=770d:2c76 status=PASS
+NB16_COUNTEREXAMPLE base=a088:4004 flipped=a008:4004 status=CONFIRMED
+NB7_STRESS mask=0400ac21 checked=2560000 status=PASS
+PRECHECK status=PASS
+KEY_RECOVERY config trials=5 structures=32 pairs=2048 plaintexts=4096 threads=4
+KEY_TRIAL id=0 master=ce91:27d0:c58e:f6ab real=a43b rank=1 top_ties=16384 first_best=0000 score=50 corr=0.02441406 bias=0.01220703 status=TOP
+KEY_TRIAL id=1 master=47bb:4c39:7ae3:6a26 real=c9c0 rank=1 top_ties=16384 first_best=0080 score=32 corr=0.01562500 bias=0.00781250 status=TOP
+KEY_TRIAL id=2 master=81c3:5c1c:de9d:b73b real=1e3f rank=16385 top_ties=16384 first_best=0000 score=78 corr=0.03808594 bias=0.01904297 status=MISS
+KEY_TRIAL id=3 master=77fc:25c9:41da:e62f real=e8c2 rank=16385 top_ties=16384 first_best=1080 score=50 corr=0.02441406 bias=0.01220703 status=MISS
+KEY_TRIAL id=4 master=6b48:07e7:3961:f853 real=b781 rank=1 top_ties=16384 first_best=1080 score=48 corr=0.02343750 bias=0.01171875 status=TOP
+KEY_SUMMARY top1=3/5 elapsed=0.188_seconds

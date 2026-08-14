@@ -1,0 +1,70 @@
+VECTOR48 l=f3cf25 r=e33b36 expected=f3cf25:e33b36 status=PASS
+CONFIG rounds=14 keys=64 samples_per_key=2^26 total_samples=2^32.000000 dp=000000:000100 lc=000000:000400 control=000001:000401 threads=4
+KEY id=32 signed=-8.6128711700e-06 abs=8.6128711700e-06 unbiased_sq=-1.4826979865e-08 control_signed= 9.5963478088e-06 control_abs=9.5963478088e-06 control_unbiased_sq=-1.4809071523e-08
+KEY id=48 signed= 3.1679868698e-05 abs=3.1679868698e-05 unbiased_sq=-1.3897547320e-08 control_signed=-2.2336840630e-04 control_abs=2.2336840630e-04 control_unbiased_sq= 3.4992284259e-08
+KEY id=0 signed= 1.5562772751e-04 abs=1.5562772751e-04 unbiased_sq= 9.3188285145e-09 control_signed=-3.3259391785e-05 control_abs=3.3259391785e-05 control_unbiased_sq=-1.3794974258e-08
+KEY id=16 signed= 1.8349289894e-04 abs=1.8349289894e-04 unbiased_sq= 1.8768483048e-08 control_signed=-3.2901763916e-05 control_abs=3.2901763916e-05 control_unbiased_sq=-1.3818635331e-08
+KEY id=33 signed= 1.5354156494e-04 abs=1.5354156494e-04 unbiased_sq= 8.6738511001e-09 control_signed= 1.5497207642e-05 control_abs=1.5497207642e-05 control_unbiased_sq=-1.4660997968e-08
+KEY id=49 signed= 3.9100646973e-05 abs=3.9100646973e-05 unbiased_sq=-1.3372300799e-08 control_signed=-9.6350908279e-05 control_abs=9.6350908279e-05 control_unbiased_sq=-5.6176637513e-09
+KEY id=1 signed=-1.8134713173e-04 abs=1.8134713173e-04 unbiased_sq= 1.7985621261e-08 control_signed=-9.5754861832e-05 control_abs=9.5754861832e-05 control_unbiased_sq=-5.7321677149e-09
+KEY id=17 signed=-1.9162893295e-05 abs=1.9162893295e-05 unbiased_sq=-1.4533944931e-08 control_signed= 1.1593103409e-04 control_abs=1.1593103409e-04 control_unbiased_sq=-1.4611565509e-09
+KEY id=34 signed=-1.2427568436e-04 abs=1.2427568436e-04 unbiased_sq= 5.4328453657e-10 control_signed=-2.5302171707e-05 control_abs=2.5302171707e-05 control_unbiased_sq=-1.4260961513e-08
+KEY id=50 signed= 1.6668438911e-04 abs=1.6668438911e-04 unbiased_sq= 1.2882524573e-08 control_signed= 1.2311339378e-04 control_abs=1.2311339378e-04 control_unbiased_sq= 2.5574653887e-10
+KEY id=18 signed= 1.5255808830e-04 abs=1.5255808830e-04 unbiased_sq= 8.3728092375e-09 control_signed=-8.2105398178e-05 control_abs=8.2105398178e-05 control_unbiased_sq=-8.1598649055e-09
+KEY id=2 signed= 1.9374489784e-04 abs=1.9374489784e-04 unbiased_sq= 2.2635924583e-08 control_signed=-1.3130903244e-04 control_abs=1.3130903244e-04 control_unbiased_sq= 2.3409008414e-09
+KEY id=19 signed= 7.4058771133e-05 abs=7.4058771133e-05 unbiased_sq=-9.4164597524e-09 control_signed=-2.5570392609e-05 control_abs=2.5570392609e-05 control_unbiased_sq=-1.4247316428e-08
+KEY id=51 signed=-1.1393427849e-04 abs=1.1393427849e-04 unbiased_sq=-1.9201414078e-09 control_signed= 1.0153651237e-04 control_abs=1.0153651237e-04 control_unbiased_sq=-4.5914979170e-09
+KEY id=35 signed= 9.0003013611e-05 abs=9.0003013611e-05 unbiased_sq=-6.8006188362e-09 control_signed=-1.7926096916e-04 control_abs=1.7926096916e-04 control_unbiased_sq= 1.7233334128e-08
+KEY id=3 signed=-5.2601099014e-05 abs=5.2601099014e-05 unbiased_sq=-1.2134285757e-08 control_signed= 1.1995434761e-04 control_abs=1.1995434761e-04 control_unbiased_sq=-5.1211569082e-10
+KEY id=20 signed=-9.7244977951e-05 abs=9.7244977951e-05 unbiased_sq=-5.4445755383e-09 control_signed= 1.9222497940e-05 control_abs=1.9222497940e-05 control_unbiased_sq=-1.4531656983e-08
+KEY id=36 signed=-2.2745132446e-04 abs=2.2745132446e-04 unbiased_sq= 3.6832944355e-08 control_signed= 8.1211328506e-05 control_abs=8.1211328506e-05 control_unbiased_sq=-8.3058814398e-09
+KEY id=52 signed=-1.2412667274e-04 abs=1.2412667274e-04 unbiased_sq= 5.0626970038e-10 control_signed=-9.5099210739e-05 control_abs=9.5099210739e-05 control_unbiased_sq=-5.8573013979e-09
+KEY id=4 signed=-7.4177980423e-05 abs=7.4177980423e-05 unbiased_sq=-9.3987885543e-09 control_signed=-5.6624412537e-07 control_abs=5.6624412537e-07 control_unbiased_sq=-1.4900840783e-08
+KEY id=21 signed=-2.8133392334e-05 abs=2.8133392334e-05 unbiased_sq=-1.4109673640e-08 control_signed= 7.8022480011e-05 control_abs=7.8022480011e-05 control_unbiased_sq=-8.8136539381e-09
+KEY id=53 signed= 9.7453594208e-06 abs=9.7453594208e-06 unbiased_sq=-1.4806189384e-08 control_signed=-1.3789534569e-04 control_abs=1.3789534569e-04 control_unbiased_sq= 4.1139652298e-09
+KEY id=37 signed=-5.8889389038e-05 abs=5.8889389038e-05 unbiased_sq=-1.1433201223e-08 control_signed=-1.1891126633e-04 control_abs=1.1891126633e-04 control_unbiased_sq=-7.6127194572e-10
+KEY id=5 signed= 1.7017126083e-05 abs=1.7017126083e-05 unbiased_sq=-1.4611578831e-08 control_signed= 6.3985586166e-05 control_abs=6.3985586166e-05 control_unbiased_sq=-1.0807006118e-08
+KEY id=22 signed=-1.8605589867e-04 abs=1.8605589867e-04 unbiased_sq= 1.9715636528e-08 control_signed= 4.1812658310e-05 control_abs=4.1812658310e-05 control_unbiased_sq=-1.3152862995e-08
+KEY id=54 signed= 4.2140483856e-05 abs=4.2140483856e-05 unbiased_sq=-1.3125341010e-08 control_signed= 4.7087669373e-06 control_abs=4.7087669373e-06 control_unbiased_sq=-1.4878988929e-08
+KEY id=38 signed=-5.2481889725e-05 abs=5.2481889725e-05 unbiased_sq=-1.2146812626e-08 control_signed= 4.1961669922e-05 control_abs=4.1961669922e-05 control_unbiased_sq=-1.3140379647e-08
+KEY id=6 signed= 1.1175870895e-05 abs=1.1175870895e-05 unbiased_sq=-1.4776261324e-08 control_signed= 5.5372714996e-05 control_abs=5.5372714996e-05 control_unbiased_sq=-1.1835023804e-08
+KEY id=23 signed=-3.3050775528e-05 abs=3.3050775528e-05 unbiased_sq=-1.3808807637e-08 control_signed= 9.4711780548e-05 control_abs=9.4711780548e-05 control_unbiased_sq=-5.9308399076e-09
+KEY id=55 signed=-4.4703483582e-07 abs=4.4703483582e-07 unbiased_sq=-1.4900961576e-08 control_signed=-1.9711256027e-04 control_abs=1.9711256027e-04 control_unbiased_sq= 2.3952200580e-08
+KEY id=7 signed=-8.4966421127e-05 abs=8.4966421127e-05 unbiased_sq=-7.6818685891e-09 control_signed=-3.8087368011e-05 control_abs=3.8087368011e-05 control_unbiased_sq=-1.3450513792e-08
+KEY id=39 signed=-3.2037496567e-05 abs=3.2037496567e-05 unbiased_sq=-1.3874760214e-08 control_signed= 7.2240829468e-05 control_abs=7.2240829468e-05 control_unbiased_sq=-9.6824238959e-09
+KEY id=24 signed= 1.6459822655e-04 abs=1.6459822655e-04 unbiased_sq= 1.2191415170e-08 control_signed=-5.6326389313e-05 control_abs=5.6326389313e-05 control_unbiased_sq=-1.1728499236e-08
+KEY id=8 signed=-1.5616416931e-05 abs=1.5616416931e-05 unbiased_sq=-1.4657288934e-08 control_signed=-1.4626979828e-04 control_abs=1.4626979828e-04 control_unbiased_sq= 6.4936927914e-09
+KEY id=56 signed=-4.5526027679e-04 abs=4.5526027679e-04 unbiased_sq= 1.9236076130e-07 control_signed= 1.0344386101e-04 control_abs=1.0344386101e-04 control_unbiased_sq=-4.2005288763e-09
+KEY id=40 signed= 9.1850757599e-05 abs=9.1850757599e-05 unbiased_sq=-6.4645996187e-09 control_signed= 1.1652708054e-05 control_abs=1.1652708054e-05 control_unbiased_sq=-1.4765375809e-08
+KEY id=25 signed= 3.8772821426e-05 abs=3.8772821426e-05 unbiased_sq=-1.3397829712e-08 control_signed=-7.5489282608e-05 control_abs=7.5489282608e-05 control_unbiased_sq=-9.2025295423e-09
+KEY id=9 signed= 4.4068694115e-04 abs=4.4068694115e-04 unbiased_sq= 1.7930382158e-07 control_signed=-2.5510787964e-05 control_abs=2.5510787964e-05 control_unbiased_sq=-1.4250361104e-08
+KEY id=57 signed=-7.5250864029e-05 abs=7.5250864029e-05 unbiased_sq=-9.2384687944e-09 control_signed= 6.3359737396e-05 control_abs=6.3359737396e-05 control_unbiased_sq=-1.0886705033e-08
+KEY id=41 signed=-2.7006864548e-04 abs=2.7006864548e-04 unbiased_sq= 5.8035912941e-08 control_signed= 1.2445449829e-04 control_abs=1.2445449829e-04 control_unbiased_sq= 5.8776095978e-10
+KEY id=26 signed=-5.3286552429e-05 abs=5.3286552429e-05 unbiased_sq=-1.2061704704e-08 control_signed=-1.7505884171e-04 control_abs=1.7505884171e-04 control_unbiased_sq= 1.5744437100e-08
+KEY id=10 signed=-1.6686320305e-04 abs=1.6686320305e-04 unbiased_sq= 1.2942167531e-08 control_signed= 1.0091066360e-04 control_abs=1.0091066360e-04 control_unbiased_sq=-4.7181992350e-09
+KEY id=58 signed= 1.7720460892e-04 abs=1.7720460892e-04 unbiased_sq= 1.6500312474e-08 control_signed=-1.1363625526e-04 control_abs=1.1363625526e-04 control_unbiased_sq=-1.9879627130e-09
+KEY id=42 signed= 1.0105967522e-04 abs=1.0105967522e-04 unbiased_sq=-4.6881033088e-09 control_signed= 1.6698241234e-04 control_abs=1.6698241234e-04 control_unbiased_sq= 1.2981965030e-08
+KEY id=27 signed=-1.1163949966e-04 abs=1.1163949966e-04 unbiased_sq=-2.4377833449e-09 control_signed= 1.4364719391e-05 control_abs=1.4364719391e-05 control_unbiased_sq=-1.4694816250e-08
+KEY id=11 signed=-6.1094760895e-06 abs=6.1094760895e-06 unbiased_sq=-1.4863835717e-08 control_signed=-4.8667192459e-05 control_abs=4.8667192459e-05 control_unbiased_sq=-1.2532665759e-08
+KEY id=43 signed=-2.6261806488e-04 abs=2.6261806488e-04 unbiased_sq= 5.4067087613e-08 control_signed=-6.3121318817e-05 control_abs=6.3121318817e-05 control_unbiased_sq=-1.0916860467e-08
+KEY id=59 signed=-5.9604644775e-07 abs=5.9604644775e-07 unbiased_sq=-1.4900806145e-08 control_signed=-8.3923339844e-05 control_abs=8.3923339844e-05 control_unbiased_sq=-7.8580343404e-09
+KEY id=28 signed=-3.2246112823e-04 abs=3.2246112823e-04 unbiased_sq= 8.9080019356e-08 control_signed= 1.6513466835e-04 control_abs=1.6513466835e-04 control_unbiased_sq= 1.2368297682e-08
+KEY id=44 signed= 6.1541795731e-05 abs=6.1541795731e-05 unbiased_sq=-1.1113768738e-08 control_signed=-1.3035535812e-04 control_abs=1.3035535812e-04 control_unbiased_sq= 2.0913582289e-09
+KEY id=12 signed= 2.9265880585e-04 abs=2.9265880585e-04 unbiased_sq= 7.0748016500e-08 control_signed=-4.6551227570e-05 control_abs=4.6551227570e-05 control_unbiased_sq=-1.2734144595e-08
+KEY id=60 signed=-8.7469816208e-05 abs=8.7469816208e-05 unbiased_sq=-7.2501925544e-09 control_signed= 2.0664930344e-04 control_abs=2.0664930344e-04 control_unbiased_sq= 2.7802773831e-08
+KEY id=29 signed=-1.2260675430e-04 abs=1.2260675430e-04 unbiased_sq= 1.3125500882e-10 control_signed= 2.3603439331e-05 control_abs=2.3603439331e-05 control_unbiased_sq=-1.4344039059e-08
+KEY id=45 signed=-5.1140785217e-05 abs=5.1140785217e-05 unbiased_sq=-1.2285781464e-08 control_signed=-8.9555978775e-05 control_abs=8.9555978775e-05 control_unbiased_sq=-6.8808879620e-09
+KEY id=13 signed=-3.5688281059e-04 abs=3.5688281059e-04 unbiased_sq= 1.1246418098e-07 control_signed= 1.2418627739e-04 control_abs=1.2418627739e-04 control_unbiased_sq= 5.2107030579e-10
+KEY id=61 signed=-3.9577484131e-05 abs=3.9577484131e-05 unbiased_sq=-1.3334784142e-08 control_signed= 1.7321109772e-04 control_abs=1.7321109772e-04 control_unbiased_sq= 1.5100923404e-08
+KEY id=30 signed=-2.2801756859e-04 abs=2.2801756859e-04 unbiased_sq= 3.7090850944e-08 control_signed= 1.5878677368e-04 control_abs=1.5878677368e-04 control_unbiased_sq= 1.0312078456e-08
+KEY id=46 signed=-2.5707483292e-04 abs=2.5707483292e-04 unbiased_sq= 5.1186309288e-08 control_signed=-7.5995922089e-05 control_abs=7.5995922089e-05 control_unbiased_sq=-9.1257811557e-09
+KEY id=14 signed= 2.6220083237e-04 abs=2.6220083237e-04 unbiased_sq= 5.3848116102e-08 control_signed= 2.1764636040e-04 control_abs=2.1764636040e-04 control_unbiased_sq= 3.2468777484e-08
+KEY id=62 signed= 1.1920928955e-07 abs=1.1920928955e-07 unbiased_sq=-1.4901147205e-08 control_signed=-2.7954578400e-05 control_abs=2.7954578400e-05 control_unbiased_sq=-1.4119702951e-08
+KEY id=47 signed=-6.5773725510e-05 abs=6.5773725510e-05 unbiased_sq=-1.0574978384e-08 control_signed=-1.6927719116e-04 control_abs=1.6927719116e-04 control_unbiased_sq= 1.3753606459e-08
+KEY id=31 signed= 2.9349327087e-04 abs=2.9349327087e-04 unbiased_sq= 7.1237139916e-08 control_signed= 9.3579292297e-05 control_abs=9.3579292297e-05 control_unbiased_sq=-6.1440773385e-09
+KEY id=15 signed= 1.9887089729e-04 abs=1.9887089729e-04 unbiased_sq= 2.4648472964e-08 control_signed= 5.4568052292e-05 control_abs=5.4568052292e-05 control_unbiased_sq=-1.1923489041e-08
+KEY id=63 signed= 1.6078352928e-04 abs=1.6078352928e-04 unbiased_sq= 1.0950182258e-08 control_signed= 1.1280179024e-04 control_abs=1.1280179024e-04 control_unbiased_sq=-2.1769173455e-09
+TARGET mean_signed=-1.3170298189e-05 mean_abs=1.2580817565e-04 abs_exp=12.956487 mean_unbiased_sq= 1.2403594184e-08 sq_se=5.2928343671e-09 z=2.3435 rms=1.1137142445e-04 rms_exp=13.132333
+CONTROL mean_signed= 1.7760321498e-06 mean_abs=9.0543180704e-05 abs_exp=13.431034 mean_unbiased_sq=-3.4342417755e-09 sq_se=1.5508237760e-09 z=-2.2145 rms=0.0000000000e+00 rms_exp=inf
+NULL_ABS_EXPECTATION value=9.7398017676e-05 exponent=13.325748
+ELAPSED seconds=63.442

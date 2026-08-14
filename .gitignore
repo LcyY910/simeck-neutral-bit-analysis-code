@@ -1,0 +1,9 @@
+.venv/
+build/
+smoke_outputs/
+reproduced_outputs/
+__pycache__/
+*.py[cod]
+*.o
+*.exe
+.DS_Store

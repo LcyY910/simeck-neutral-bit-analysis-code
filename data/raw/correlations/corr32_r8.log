@@ -1,0 +1,6 @@
+VECTOR32 l=770d r=2c76 expected=770d:2c76 status=PASS
+CONFIG rounds=8 keys=64 samples_per_key=2^18 total_samples=2^24.000000 dp=0000:2000 lc=0000:1000 control=0001:1001 seed=0x32335f504f534954 threads=4
+TARGET mean_signed= 4.5405137539e-01 mean_abs=4.5405137539e-01 abs_exp=1.139073 mean_unbiased_sq= 2.0617532277e-01 sq_se=4.5221136989e-04 z=455.9269 rms=4.5406532875e-01 rms_exp=1.139028
+CONTROL mean_signed= 5.1515102386e-03 mean_abs=5.6524276733e-03 abs_exp=7.466914 mean_unbiased_sq= 4.2278830124e-05 sq_se=6.5451578417e-06 z=6.4596 rms=6.5022173237e-03 rms_exp=7.264853
+NULL_ABS_EXPECTATION value=1.5583682828e-03 exponent=9.325748
+ELAPSED seconds=0.122

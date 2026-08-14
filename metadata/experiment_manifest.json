@@ -1,0 +1,87 @@
+{
+  "package": "simeck-neutral-bit-analysis",
+  "version": "1.0.0",
+  "release_date": "2026-08-09",
+  "environment": {
+    "operating_system": "Ubuntu 24.04.3 LTS",
+    "kernel": "Linux 6.14.0-36-generic x86_64",
+    "virtual_cpus": 4,
+    "memory_gib": 15,
+    "gcc": "13.3.0",
+    "z3_solver": "4.15.4"
+  },
+  "experiments": [
+    {
+      "id": "EXP-01",
+      "name": "Published Simeck implementation vectors",
+      "status": "PASS",
+      "output": "data/raw/validation/simeck_vectors.out"
+    },
+    {
+      "id": "EXP-02",
+      "name": "Exact three-round neutral-bit mask audit",
+      "status": "PASS_WITH_COUNTEREXAMPLE_TO_16_BIT_MASK",
+      "output": "data/raw/neutral_bits/nb_full_audit.json"
+    },
+    {
+      "id": "EXP-03",
+      "name": "Simeck-32/48 Hamming-weight scalability audit",
+      "status": "PASS",
+      "configuration_count": 416,
+      "output": "data/raw/neutral_bits/nb_scalability.json"
+    },
+    {
+      "id": "EXP-04",
+      "name": "Simeck-64 Hamming-weight scalability audit",
+      "status": "PASS",
+      "configuration_count": 96,
+      "output": "data/raw/neutral_bits/nb_simeck64.json"
+    },
+    {
+      "id": "EXP-05",
+      "name": "Simeck-64 representative joint symbolic checks",
+      "status": "PASS",
+      "queries": 3,
+      "result": "all unsat",
+      "output": "data/raw/neutral_bits/nb_simeck64_joint.json"
+    },
+    {
+      "id": "EXP-07",
+      "name": "Eleven-round Simeck-32 partial-key ranking",
+      "status": "PASS",
+      "seeds": ["0x4b43555256454131", "0x4b43555256454232"],
+      "plaintext_log2_levels": [10, 12, 14, 16, 18, 20, 21],
+      "output_directory": "data/raw/key_ranking"
+    },
+    {
+      "id": "EXP-08",
+      "name": "Simeck-32 eight-round positive control",
+      "status": "PASS",
+      "observed_correlation": 0.45405137539,
+      "output": "data/raw/correlations/corr32_r8.log"
+    },
+    {
+      "id": "EXP-09",
+      "name": "Simeck-48 fourteen-round independent replications",
+      "status": "PASS_WITH_REVISED_MAGNITUDE",
+      "pooled_rms_correlation": 0.00010781025793179096,
+      "output_pattern": "data/raw/correlations/corr48_r14_seed_*.log"
+    },
+    {
+      "id": "EXP-10",
+      "name": "Simeck-48 seventeen-round independent replications",
+      "status": "CLAIM_NOT_REPRODUCED",
+      "pooled_mean_unbiased_squared_correlation": -1.3261856839474096e-10,
+      "output_pattern": "data/raw/correlations/corr48_r17_seed_*.log"
+    },
+    {
+      "id": "EXP-11",
+      "name": "CRYPTO 2024 Simeck-48 Table 18 endpoint audit",
+      "status": "ABSOLUTE_MAGNITUDE_MATCH_WITH_LOWER_UNBIASED_RMS",
+      "total_samples": 4294967296,
+      "mean_absolute_correlation": 0.000130222179,
+      "unbiased_rms_correlation": 0.0001081146954,
+      "output": "data/raw/correlations/baseline17_table18_large.log"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+cipher,state_width,difference_weight,samples,neutral_mean,neutral_median,neutral_q25,neutral_q75,neutral_min,neutral_max,empty_count,empty_rate,independent_mean,independent_empty_rate
+Simeck-64,64,1,16,24.0,24.0,16.0,32.0,16,32,0,0.0,23.0,0.0
+Simeck-64,64,2,16,6.625,6.5,3.0,8.0,2,21,0,0.0,6.25,0.0
+Simeck-64,64,4,16,2.0,1.5,0.75,3.0,0,6,4,0.25,1.6875,0.3125
+Simeck-64,64,8,16,0.1875,0.0,0.0,0.0,0,3,15,0.9375,0.1875,0.9375
+Simeck-64,64,16,16,0.0,0.0,0.0,0.0,0,0,16,1.0,0.0,1.0
+Simeck-64,64,32,16,0.0,0.0,0.0,0.0,0,0,16,1.0,0.0,1.0

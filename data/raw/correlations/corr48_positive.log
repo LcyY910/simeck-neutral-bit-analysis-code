@@ -1,0 +1,22 @@
+VECTOR48 l=f3cf25 r=e33b36 expected=f3cf25:e33b36 status=PASS
+CONFIG rounds=1 keys=16 samples_per_key=2^16 total_samples=2^20.000000 dp=000000:000001 lc=000001:000000 control=000000:000001 seed=0x504f534954495645 threads=4
+KEY id=0 signed=-1.0000000000e+00 abs=1.0000000000e+00 unbiased_sq= 1.0000000000e+00 control_signed= 1.0000000000e+00 control_abs=1.0000000000e+00 control_unbiased_sq= 1.0000000000e+00
+KEY id=8 signed=-1.0000000000e+00 abs=1.0000000000e+00 unbiased_sq= 1.0000000000e+00 control_signed= 1.0000000000e+00 control_abs=1.0000000000e+00 control_unbiased_sq= 1.0000000000e+00
+KEY id=12 signed=-1.0000000000e+00 abs=1.0000000000e+00 unbiased_sq= 1.0000000000e+00 control_signed= 1.0000000000e+00 control_abs=1.0000000000e+00 control_unbiased_sq= 1.0000000000e+00
+KEY id=9 signed=-1.0000000000e+00 abs=1.0000000000e+00 unbiased_sq= 1.0000000000e+00 control_signed= 1.0000000000e+00 control_abs=1.0000000000e+00 control_unbiased_sq= 1.0000000000e+00
+KEY id=1 signed=-1.0000000000e+00 abs=1.0000000000e+00 unbiased_sq= 1.0000000000e+00 control_signed= 1.0000000000e+00 control_abs=1.0000000000e+00 control_unbiased_sq= 1.0000000000e+00
+KEY id=4 signed=-1.0000000000e+00 abs=1.0000000000e+00 unbiased_sq= 1.0000000000e+00 control_signed= 1.0000000000e+00 control_abs=1.0000000000e+00 control_unbiased_sq= 1.0000000000e+00
+KEY id=2 signed=-1.0000000000e+00 abs=1.0000000000e+00 unbiased_sq= 1.0000000000e+00 control_signed= 1.0000000000e+00 control_abs=1.0000000000e+00 control_unbiased_sq= 1.0000000000e+00
+KEY id=13 signed=-1.0000000000e+00 abs=1.0000000000e+00 unbiased_sq= 1.0000000000e+00 control_signed= 1.0000000000e+00 control_abs=1.0000000000e+00 control_unbiased_sq= 1.0000000000e+00
+KEY id=5 signed=-1.0000000000e+00 abs=1.0000000000e+00 unbiased_sq= 1.0000000000e+00 control_signed= 1.0000000000e+00 control_abs=1.0000000000e+00 control_unbiased_sq= 1.0000000000e+00
+KEY id=10 signed=-1.0000000000e+00 abs=1.0000000000e+00 unbiased_sq= 1.0000000000e+00 control_signed= 1.0000000000e+00 control_abs=1.0000000000e+00 control_unbiased_sq= 1.0000000000e+00
+KEY id=14 signed=-1.0000000000e+00 abs=1.0000000000e+00 unbiased_sq= 1.0000000000e+00 control_signed= 1.0000000000e+00 control_abs=1.0000000000e+00 control_unbiased_sq= 1.0000000000e+00
+KEY id=6 signed=-1.0000000000e+00 abs=1.0000000000e+00 unbiased_sq= 1.0000000000e+00 control_signed= 1.0000000000e+00 control_abs=1.0000000000e+00 control_unbiased_sq= 1.0000000000e+00
+KEY id=11 signed=-1.0000000000e+00 abs=1.0000000000e+00 unbiased_sq= 1.0000000000e+00 control_signed= 1.0000000000e+00 control_abs=1.0000000000e+00 control_unbiased_sq= 1.0000000000e+00
+KEY id=15 signed=-1.0000000000e+00 abs=1.0000000000e+00 unbiased_sq= 1.0000000000e+00 control_signed= 1.0000000000e+00 control_abs=1.0000000000e+00 control_unbiased_sq= 1.0000000000e+00
+KEY id=3 signed=-1.0000000000e+00 abs=1.0000000000e+00 unbiased_sq= 1.0000000000e+00 control_signed= 1.0000000000e+00 control_abs=1.0000000000e+00 control_unbiased_sq= 1.0000000000e+00
+KEY id=7 signed=-1.0000000000e+00 abs=1.0000000000e+00 unbiased_sq= 1.0000000000e+00 control_signed= 1.0000000000e+00 control_abs=1.0000000000e+00 control_unbiased_sq= 1.0000000000e+00
+TARGET mean_signed=-1.0000000000e+00 mean_abs=1.0000000000e+00 abs_exp=-0.000000 mean_unbiased_sq= 1.0000000000e+00 sq_se=0.0000000000e+00 z=0.0000 rms=1.0000000000e+00 rms_exp=-0.000000
+CONTROL mean_signed= 1.0000000000e+00 mean_abs=1.0000000000e+00 abs_exp=-0.000000 mean_unbiased_sq= 1.0000000000e+00 sq_se=0.0000000000e+00 z=0.0000 rms=1.0000000000e+00 rms_exp=-0.000000
+NULL_ABS_EXPECTATION value=3.1167365656e-03 exponent=8.325748
+ELAPSED seconds=0.000

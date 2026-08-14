@@ -1,0 +1,21 @@
+=== baseline14 ===
+VECTOR48 l=f3cf25 r=e33b36 expected=f3cf25:e33b36 status=PASS
+CONFIG rounds=14 keys=16 samples_per_key=2^20 total_samples=2^24.000000 dp=000000:000100 lc=000000:000400 control=000001:000401 seed=0x1400000000000001 threads=4
+TARGET mean_signed= 3.7431716919e-04 mean_abs=9.4127655029e-04 abs_exp=10.053094 mean_unbiased_sq= 2.0797844452e-07 sq_se=2.8358481833e-07 z=0.7334 rms=4.5604653767e-04 rms_exp=11.098531
+CONTROL mean_signed= 3.2544136047e-05 mean_abs=6.1166286469e-04 abs_exp=10.674976 mean_unbiased_sq=-4.8326888349e-07 sq_se=1.0510650894e-07 z=-4.5979 rms=0.0000000000e+00 rms_exp=inf
+NULL_ABS_EXPECTATION value=7.7918414141e-04 exponent=10.325748
+ELAPSED seconds=0.320
+=== baseline17_table18 ===
+VECTOR48 l=f3cf25 r=e33b36 expected=f3cf25:e33b36 status=PASS
+CONFIG rounds=17 keys=16 samples_per_key=2^20 total_samples=2^24.000000 dp=000010:000020 lc=000010:000008 control=000011:000009 seed=0x1700000000000001 threads=4
+TARGET mean_signed= 3.8111209869e-04 mean_abs=7.9739093781e-04 abs_exp=10.292425 mean_unbiased_sq= 4.3174891536e-08 sq_se=3.6648980615e-07 z=0.1178 rms=2.0778568655e-04 rms_exp=12.232616
+CONTROL mean_signed=-2.0551681519e-04 mean_abs=9.6487998962e-04 abs_exp=10.017363 mean_unbiased_sq= 8.4168812698e-07 sq_se=7.8688536110e-07 z=1.0696 rms=9.1743562552e-04 rms_exp=10.090105
+NULL_ABS_EXPECTATION value=7.7918414141e-04 exponent=10.325748
+ELAPSED seconds=0.421
+=== baseline17_current ===
+VECTOR48 l=f3cf25 r=e33b36 expected=f3cf25:e33b36 status=PASS
+CONFIG rounds=17 keys=16 samples_per_key=2^20 total_samples=2^24.000000 dp=000100:000200 lc=000200:000710 control=000201:000711 seed=0x1710000000000001 threads=4
+TARGET mean_signed=-8.7261199951e-05 mean_abs=8.3041191101e-04 abs_exp=10.233885 mean_unbiased_sq= 8.2852317862e-08 sq_se=3.0272313788e-07 z=0.2737 rms=2.8784078561e-04 rms_exp=11.762441
+CONTROL mean_signed=-3.3640861511e-04 mean_abs=8.3494186401e-04 abs_exp=10.226037 mean_unbiased_sq= 1.3423381529e-07 sq_se=3.7028860523e-07 z=0.3625 rms=3.6637933251e-04 rms_exp=11.414374
+NULL_ABS_EXPECTATION value=7.7918414141e-04 exponent=10.325748
+ELAPSED seconds=0.369
